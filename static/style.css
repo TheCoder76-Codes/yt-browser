@@ -1,0 +1,74 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+body {
+  margin: 0;
+}
+
+.cookies {
+  background-color: rgb(0, 0, 48);
+  width: calc(100vw - 40px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 20px;
+} .cookies button {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  border-radius: 15px;
+  display: inline;
+  padding: 5px;
+} .cookies h6 {
+  display: inline;
+} .cookies button:hover {
+  background-color: rgb(236, 236, 236); 
+}
+.indent {
+  margin-left: 25px;
+}
+
+
+input[type="text"], input[type="password"] {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: rgb(226, 226, 226);
+  outline: none;
+  font-size: 14px;
+} input[type="submit"] {
+  font-family: 'Material Icons';
+  border: none;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: rgb(247, 247, 247);
+  outline: none;
+  color: black;
+  font-size: 14px;
+} button {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: rgb(247, 247, 247);
+  outline: none;
+  color: black;
+  font-size: 14px;
+}
+
+.video {
+  display: flex;
+  margin: 10px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 20px;
+} .video img {
+  margin-right: 10px;
+}
